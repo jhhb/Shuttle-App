@@ -22,6 +22,10 @@
 		8CFEC6B31C83C09200C07B76 /* StopRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEC6B21C83C09200C07B76 /* StopRequest.swift */; };
 		8CFEC6B51C8402FE00C07B76 /* RouteCoord.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEC6B41C8402FE00C07B76 /* RouteCoord.plist */; };
 		8CFEC6B71C84A10100C07B76 /* RoutePath.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEC6B61C84A10100C07B76 /* RoutePath.plist */; };
+		D04483D01CADB6270077A6C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04483CE1CADB6270077A6C3 /* LoginViewController.swift */; };
+		D04483D11CADB6270077A6C3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04483CF1CADB6270077A6C3 /* LoginViewController.xib */; };
+		D04483D41CADB6390077A6C3 /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04483D21CADB6390077A6C3 /* UserAuthViewController.swift */; };
+		D04483D51CADB6390077A6C3 /* UserAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04483D31CADB6390077A6C3 /* UserAuthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		8CFEC6B21C83C09200C07B76 /* StopRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopRequest.swift; sourceTree = "<group>"; };
 		8CFEC6B41C8402FE00C07B76 /* RouteCoord.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RouteCoord.plist; sourceTree = "<group>"; };
 		8CFEC6B61C84A10100C07B76 /* RoutePath.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoutePath.plist; sourceTree = "<group>"; };
+		D04483CE1CADB6270077A6C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D04483CF1CADB6270077A6C3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D04483D21CADB6390077A6C3 /* UserAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
+		D04483D31CADB6390077A6C3 /* UserAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAuthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,10 @@
 				8CFEC6821C83B77300C07B76 /* AppDelegate.swift */,
 				8CFEC68B1C83B77400C07B76 /* LaunchScreen.storyboard */,
 				8CFEC68E1C83B77400C07B76 /* Info.plist */,
+				D04483CE1CADB6270077A6C3 /* LoginViewController.swift */,
+				D04483CF1CADB6270077A6C3 /* LoginViewController.xib */,
+				D04483D21CADB6390077A6C3 /* UserAuthViewController.swift */,
+				D04483D31CADB6390077A6C3 /* UserAuthViewController.xib */,
 			);
 			path = Shuttle_Application;
 			sourceTree = "<group>";
@@ -252,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04483D11CADB6270077A6C3 /* LoginViewController.xib in Resources */,
 				8CFEC6B51C8402FE00C07B76 /* RouteCoord.plist in Resources */,
+				D04483D51CADB6390077A6C3 /* UserAuthViewController.xib in Resources */,
 				8CFEC6B71C84A10100C07B76 /* RoutePath.plist in Resources */,
 				8CFEC68D1C83B77400C07B76 /* LaunchScreen.storyboard in Resources */,
 				8C0042E91C9997DF007D4FEC /* MapViewController.xib in Resources */,
@@ -283,12 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04483D01CADB6270077A6C3 /* LoginViewController.swift in Sources */,
 				8CFEC6831C83B77300C07B76 /* AppDelegate.swift in Sources */,
 				8C08BA6B1CA6B311001DC98F /* RequestCell.swift in Sources */,
 				8CFEC6B11C83B9ED00C07B76 /* MapViewController.swift in Sources */,
 				8C0042E51C9288E2007D4FEC /* RequestTableViewController.swift in Sources */,
 				8C0042E31C91C16A007D4FEC /* RequestLog.swift in Sources */,
 				8CFEC6B31C83C09200C07B76 /* StopRequest.swift in Sources */,
+				D04483D41CADB6390077A6C3 /* UserAuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
